@@ -1,5 +1,5 @@
 # Project 1: Data Modeling with PostgreSQL
-This Project creates a postges database `sparkifydb` for a music app, *Sparkify*. The purpose of the database is to model log and song datasets (JSON format) with a star schema optimised for queries on song play analysis.
+This Project creates a postges database `sparkifydb` for a music app, ***Sparkify***. The purpose of the database is to model log and song datasets (JSON format) with a star schema optimised for queries on song play analysis.
 ## Schema design and ETL pipeline
 The star schema has 1 fact table(songplays) and 4 dimension tables(users,songs,artists,time).CRUD queries are defined in **sql_queries.py**. **create_tables.py** uses functions `drop_tables`,`create_database` and `create_tables` to create the database sparkifydb and the required tables.
 
